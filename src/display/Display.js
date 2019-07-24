@@ -1,8 +1,12 @@
 import React from 'react';
 
-const Display = ({ closed, locked }) => {
-  const closedClass = `led ${closed ? 'red-led' : 'green-led'}`;
-  const lockedClass = `led ${locked ? 'red-led' : 'green-led'}`;
+
+
+
+
+const Display = ({ closed, locked }) => {   //Display = variable  Closed/locked = aurguments 
+  const closedClass = `led ${closed ? 'red-led' : 'green-led'}`; // 
+  const lockedClass = `led ${locked ? 'red-led' : 'green-led'}`; //`${} interpulated 
 
   return (
     <div className="display panel">
